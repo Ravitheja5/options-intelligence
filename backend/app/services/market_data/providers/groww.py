@@ -5,7 +5,6 @@ from typing import Any
 
 from dotenv import load_dotenv
 from growwapi import GrowwAPI
-
 from app.services.market_data.base import MarketDataProvider
 from app.services.market_data.schemas import OptionQuote
 

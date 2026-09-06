@@ -21,7 +21,8 @@ interface SignalsResponse {
   signals: TradingSignal[];
 }
 
-const API_BASE_URL = "http://127.0.0.1:8000";
+// Render Backend URL
+const API_BASE_URL = "https://options-intelligence-backend.onrender.com";
 
 export async function getTradingSignals(
   underlyingSymbol: string = "NIFTY"
